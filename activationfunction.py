@@ -22,6 +22,7 @@ hidden_layer_outputs=np.array(node_0_output,node_1_output)
 
 print("At hidden layer",hidden_layer_outputs)
 
+# evaluvating the final output with two hidden node value
 output=(hidden_layer_outputs*weights['output']).sum()
 
 print("output",output)
